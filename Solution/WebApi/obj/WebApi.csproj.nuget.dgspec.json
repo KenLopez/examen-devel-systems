@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\WebApi\\WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\khlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\khlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\khlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\khlop\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khlop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\DataLayer\\DataLayer.csproj"
+              },
+              "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\Usuarios\\Kenneth\\Documentos\\Kenneth\\Devel Systems\\Examen Práctico\\Solution\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

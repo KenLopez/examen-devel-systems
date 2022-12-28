@@ -1,0 +1,17 @@
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\DataLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CopyComplete
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll

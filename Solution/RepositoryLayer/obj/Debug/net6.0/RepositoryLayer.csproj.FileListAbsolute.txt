@@ -1,0 +1,15 @@
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\bin\Debug\net6.0\DataLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CopyComplete
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll

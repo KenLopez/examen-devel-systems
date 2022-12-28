@@ -1,0 +1,12 @@
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\bin\Debug\net6.0\DataLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+D:\Usuarios\Kenneth\Documentos\Kenneth\Devel Systems\Examen Práctico\Solution\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
