@@ -31,14 +31,18 @@ CREATE TABLE CAMPO (
 
 CREATE TABLE RESPUESTA (
 	Id INT NOT NULL PRIMARY KEY IDENTITY,
-	Fecha DATETIME NOT NULL
+	Fecha DATETIME NOT NULL,
+	Encuesta INT NOT NULL,
+	FOREIGN KEY (Encuesta) REFERENCES ENCUESTA(Id) ON DELETE CASCADE
 );
 
 CREATE TABLE RESPUESTA_CAMPO (
 	Id INT NOT NULL PRIMARY KEY IDENTITY,
 	Campo INT NOT NULL,
 	Informacion VARCHAR(500) NOT NULL,
-	FOREIGN KEY (Campo) REFERENCES CAMPO(Id) ON DELETE CASCADE
+	Respuesta INT NOT NULL,
+	FOREIGN KEY (Campo) REFERENCES CAMPO(Id) ON DELETE CASCADE,
+	FOREIGN KEY (Respuesta) REFERENCES RESPUESTA(Id) 
 );
 
 INSERT INTO TIPO (Nombre)
@@ -91,4 +95,174 @@ BEGIN
 		Descripcion
 	FROM ENCUESTA
 	WHERE Usuario = @pUsuario
+END
+
+GO 
+CREATE PROCEDURE CREAR_ENCUESTA(
+	@pUsuario INT,
+	@pNombre VARCHAR(100),
+	@pDescripcion VARCHAR(300)
+)
+AS
+BEGIN
+	INSERT INTO ENCUESTA (
+		Usuario,
+		Nombre,
+		Descripcion
+	)
+	VALUES (
+		@pUsuario,
+		@pNombre,
+		@pDescripcion
+	)
+END
+
+GO
+CREATE PROCEDURE CREAR_CAMPO(
+	@pEncuesta INT,
+	@pTitulo VARCHAR(100),
+	@pRequerido BIT,
+	@pTipo INT
+)
+AS 
+BEGIN
+	INSERT INTO CAMPO(
+		Encuesta,
+		Titulo,
+		Requerido,
+		Tipo
+	)
+	VALUES
+	(
+		@pEncuesta,
+		@pTitulo,
+		@pRequerido,
+		@pTipo
+	)
+END
+
+GO
+CREATE PROCEDURE RESPONDER_ENCUESTA(
+	@pEncuesta INT
+)
+AS
+BEGIN 
+	INSERT INTO RESPUESTA (
+		Fecha,
+		Encuesta
+	)
+	VALUES (
+		GETDATE(),
+		@pEncuesta
+	);
+
+	SELECT SCOPE_IDENTITY() as Encuesta;
+END
+
+GO
+CREATE PROCEDURE RESPONDER_CAMPO(
+	@pCampo INT,
+	@pInformacion VARCHAR(500),
+	@pRespuesta INT
+)
+AS 
+BEGIN
+	INSERT INTO RESPUESTA_CAMPO (
+		Campo,
+		Informacion,
+		Respuesta
+	)
+	VALUES (
+		@pCampo,
+		@pInformacion,
+		@pRespuesta
+	);
+END
+
+GO 
+CREATE PROCEDURE ELIMINAR_ENCUESTA(
+	@pEncuesta INT
+)
+AS 
+BEGIN 
+	DELETE FROM ENCUESTA WHERE Id = @pEncuesta;
+END
+
+GO
+CREATE PROCEDURE ELIMINAR_CAMPO(
+	@pCampo INT
+)
+AS 
+BEGIN
+	DELETE FROM CAMPO WHERE Id = @pCampo;
+END
+
+GO 
+CREATE PROCEDURE OBTENER_RESPUESTAS(
+	@pEncuesta INT
+)
+AS
+BEGIN
+	SELECT 
+		Id,
+		Fecha
+	FROM RESPUESTA
+	WHERE Encuesta = @pEncuesta
+END
+
+GO 
+CREATE PROCEDURE OBTENER_RESPUESTA(
+	@pRespuesta INT
+)
+AS
+BEGIN
+	SELECT
+		e.Id,
+		e.Nombre,
+		e.Descripcion,
+		r.Fecha
+	FROM RESPUESTA r  
+	INNER JOIN ENCUESTA e ON r.Encuesta = e.Id
+	WHERE r.Id = @pRespuesta;
+
+	SELECT
+		c.Id,
+		c.Titulo,
+		rc.Informacion
+	FROM CAMPO c
+	LEFT JOIN RESPUESTA_CAMPO rc ON c.Id = rc.Campo
+	WHERE rc.Respuesta = @pRespuesta
+END
+
+GO
+CREATE PROCEDURE OBTENER_ENCUESTA(
+	@pEncuesta INT
+)
+AS
+BEGIN
+	SELECT
+		Id,
+		Nombre,
+		Descripcion
+	FROM ENCUESTA
+	WHERE Id = @pEncuesta;
+
+	SELECT 
+		c.Id,
+		c.Titulo,
+		c.Requerido,
+		t.Nombre
+	FROM CAMPO c
+	INNER JOIN TIPO t ON c.Tipo = t.Id
+	WHERE c.Encuesta = @pEncuesta;
+END
+
+GO
+CREATE PROCEDURE OBTENER_TIPOS
+AS
+BEGIN
+	SELECT 
+		Id,
+		Nombre
+	FROM TIPO;
 END

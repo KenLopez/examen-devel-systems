@@ -10,7 +10,7 @@ namespace DataLayer.Models
     {
         public int Id { get; set; }
         public int Encuesta { get; set; }
-        public int Titulo { get; set; }
+        public string Titulo { get; set; } = string.Empty;
         public bool Requerido { get; set; }
         public int Tipo { get; set; }
     }

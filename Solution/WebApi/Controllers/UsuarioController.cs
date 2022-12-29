@@ -21,7 +21,7 @@ namespace WebApi.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        [Route("login")]
+        [Route("[action]")]
         public ActionResult<UsuarioViewmodel> Login([FromBody] Usuario usuario)
         {
             var secretKey = _configuration.GetValue<string>("SecretKey");
@@ -30,12 +30,12 @@ namespace WebApi.Controllers
             {
                 return Ok(resp);
             }
-            return BadRequest();
+            return BadRequest("Credenciales incorrectas");
         }
 
         [AllowAnonymous]
         [HttpPost]
-        public ActionResult<List<Usuario>> PostUsuario([FromBody] Usuario usuario)
+        public ActionResult PostUsuario([FromBody] Usuario usuario)
         {
             bool resp = _usuarioBL.RegistrarUsuario(usuario);
             if (resp)

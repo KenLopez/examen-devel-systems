@@ -11,5 +11,6 @@ namespace DataLayer.Models
         public int Id { get; set; }
         public int Campo { get; set; }
         public string Informacion { get; set; } = string.Empty;
+        public int Respuesta { get; set; }
     }
 }
